@@ -1,0 +1,16 @@
+body{
+    text-align: center;
+    font-size: 3em;
+
+}
+#roll{
+    font-size: 1em;
+    background-color: rgb(127, 153, 255);
+    border-radius: 10px;
+}
+#mylabel{
+    font-size: 1em;
+    background-color: rgb(84, 84, 209);
+    border-radius: 10px;
+    padding: 15px;
+}

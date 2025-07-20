@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    font-size: 3rem;
+    background-color: yellow;
+    text-align: center;
+}
+#container{
+    display: flex;
+    justify-content: center;
+}
+.choice{
+    width: 200px;
+    height: 200px;
+    font-size: 7rem;
+    background-color: rgb(127, 249, 255);
+    border: 3px solid black;
+    text-align: center;
+    border-radius: 50%;
+    margin: 20px;
+}
+.myh2{
+    text-align: center;
+    margin: 10px;
+}
+#result{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.myh3{
+    text-align: center;
+    margin: 10px;
+    font-size: 1.5rem;
+}
+.greentext{
+    color: greenyellow;
+
+}
+.redtext{
+    color: tomato;
+}

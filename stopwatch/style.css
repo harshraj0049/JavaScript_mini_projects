@@ -1,0 +1,44 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-size: 3.5em;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 235, 108);
+}
+#stopwth{
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: rgb(252, 210, 45);
+}
+#display{
+    text-align: center;
+}
+#control{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.btn{
+    padding: 5px 20px;
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: background-color 0.5s ease;
+}
+#startbtn{
+    background-color: rgb(78, 208, 26);
+}
+#stopbtn{
+    background-color: rgb(250, 65, 65);
+}
+#resetbtn{
+    background-color: rgb(2, 194, 253);
+}

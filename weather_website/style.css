@@ -1,0 +1,87 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: arial,sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+.weather_form{
+    padding: 10px;
+    margin: 10px;
+}
+.cityInput{
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: 2px solid rgba(0, 0, 0, 0.256);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 3px;
+}
+#mybutton{
+    font-size: 1.5rem;
+    border:2px solid rgba(0, 0, 0, 0.256) ;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 5px;
+    margin: 3px;
+    background-color: hsla(120, 61%, 47%, 0.733);
+    color: white;
+    cursor: pointer;
+}
+#mybutton:hover{
+    background-color: hsla(120, 61%, 47%, 0.483);
+}
+.mydiv{
+    margin-top: 15px;
+    border: 3px solid rgb(134, 134, 134) ;
+    border-radius: 5px;
+    text-align: center;
+    background: linear-gradient(180deg,hsla(208, 100%, 50%, 0.55),hsla(39, 100%, 50%, 0.750));
+    box-shadow: 2px 2px 5px rgba(108, 108, 108, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 250px;
+    min-height: 250px;
+}
+.ciytDisplay{
+    margin: 0px;
+    padding: 5px;
+    font-size: 2.5rem;
+    color: rgba(0, 0, 0, 0.75);
+}
+.tempDisplay{
+    margin: 5px;
+    padding: 5px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.75);
+}
+.humidityDisplay{
+    margin: 5px;
+    padding: 5px;
+    font-size: 1.5rem;
+}
+.forcastDisplay{
+    margin: 5px;
+    padding: 5px;
+    font-size: 1.5rem;
+}
+.emojidisplay{
+    margin: 5px;
+    padding: 5px;
+    font-size: 7rem;
+}
+.errorDisplay{
+    margin: 5px;
+    padding: 5px;
+    font-size: 1.5rem;
+     color: rgba(0, 0, 0, 0.75);
+}
+

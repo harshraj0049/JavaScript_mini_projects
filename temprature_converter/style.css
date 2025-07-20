@@ -1,0 +1,31 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    height: 100vh;
+    min-width: 100%;
+    font-size: 1.5em;
+    border: 5px solid black;
+    display: flex;
+    flex-grow: 0;
+    width: 50%;  
+    align-items: center;
+    justify-content: center; 
+    background-color: rgb(72, 88, 179);
+}
+.mydiv{
+    border: 5px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(118, 77, 200);
+}
+#submit{
+    background-color: rgb(255, 0, 0);
+    padding: 10px 5px;
+    border-radius: 10px;
+    border-color: rgb(255, 0, 0);
+    color: rgb(238, 228, 228);
+    font-weight: bold;
+}
